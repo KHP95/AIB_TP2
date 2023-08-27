@@ -5,7 +5,8 @@
 
 ## Requirements
 * python = 3.11.3
-* PyTorch = 2.0.1
-* TorchVision = 0.15.2
+* PyTorch = 2.0.1+cu118
+* TorchVision = 0.15.2+cu118
 * tensorboard = 2.14.0
-* MMdetection = 3.0.1
+* ultralytics = 8.0.159    # YOLOv8 프레임워크
+* MMdetection = 3.0.1      # 객체탐지 프레임워크
