@@ -1,3 +1,8 @@
 data/
 mmdetection/
 checkpoints/
+YOLOv8/
+YOLOv8m/
+RTDETR/
+*.yaml
+*.pt
