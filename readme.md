@@ -10,3 +10,5 @@
 * tensorboard = 2.14.0
 * ultralytics = 8.0.159    # YOLOv8 프레임워크
 * MMdetection = 3.0.1      # 객체탐지 프레임워크
+* ONNX = 1.14.1
+* opencv-python(cv2) = 4.8.0.76
