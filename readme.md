@@ -4,10 +4,10 @@
 * 주제 : 교통법규 위반 탐지 (Object Detection)
 
 ## 역할
-손효은 : 팀장, 프론트엔드, 모델링
-박준서 : 백엔드, 모델링
-박경훈 : 모델링 중점, git
-조현식 : 모델링 중점, 유관기관(경찰청) 의견 수집
+손효은 : 팀장, 프론트엔드, 모델링  
+박준서 : 백엔드, 모델링  
+박경훈 : 모델링 중점, git  
+조현식 : 모델링 중점, 유관기관(경찰청) 의견 수집  
 
 ---
 ## 프로젝트 요약
@@ -29,17 +29,15 @@
     * 하나의 객체 다중클래스 탐지문제 해결  
 <br>
 
-**탐지성능 비교**
-![gif not found](./YOLOv8m_78vs118.gif)
-
-<br>
-
-**검증 성능**  
-* mAP@50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0.782
-* mAP@75&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0.714
-* mAP@50-95&nbsp;: 0.591
-* 클래스별 성능  
-<img src="./YOLOv8m_val.png" width="500">
+>**탐지성능 비교**  
+>![gif not found](./YOLOv8m_78vs118.gif)
+>
+>**검증 성능**  
+>* mAP@50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0.782
+>* mAP@75&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0.714
+>* mAP@50-95&nbsp;: 0.591
+>* 클래스별 성능  
+><img src="./YOLOv8m_val.png" width="700">
 <br>
 
 ### 모델배포
