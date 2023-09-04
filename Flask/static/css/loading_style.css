@@ -1,0 +1,250 @@
+
+  .body {
+    width: 1344px;
+    height: 1145px;
+    background-image: url('images/policecar_insideimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  } 
+
+  .loading {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    overflow: hidden;
+  }
+  
+  .loading .div {
+    background-color: #ffffff;
+    width: 1344px;
+    height: 1145px;
+    position: relative;
+  }
+  
+  .loading .copy-right {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 16px 647px;
+    position: absolute;
+    top: 1095px;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+  
+  /* .loading .navbar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-color: #99989859;
+  } */
+
+  .loading .copyright {
+    position: relative;
+    width: 100%;
+    margin-top: -1px;
+    font-family: "BM DoHyeon-Regular", Helvetica;
+    font-weight: 400;
+    color: #3d3d3d;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .loading .overlap-group {
+    position: absolute;
+    width: 1344px;
+    height: 738px;
+    top: 70px;
+    left: 0;
+  }
+  
+  .loading .result-subtitle {
+    position: absolute;
+    width: 60%;
+    top: 84px;
+    left: 20%;
+    text-align: center;
+    font-family: "BM DoHyeon-Regular", Helvetica;
+    font-weight: 400;
+    color: #26a6fe;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .loading .resul-title {
+    position: absolute;
+    width: 60%;
+    top: 129px;
+    left: 20%;
+    text-align: center;
+    font-family: "BM DoHyeon-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .loading .screen {
+    display: flex;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 30%;
+    left: 20%;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 15px solid;
+    border-color: #000000;
+  }
+  
+  .loading .img {
+    position: absolute;
+    width: 254px;
+    height: 254px;
+    top: 36%;
+    left: 41%;
+  }
+  
+  .loading .text-wrapper {
+    position: absolute;
+    /* width: 455px; */
+    width: 100%;
+    top: 73%;
+    left: 2%;
+    text-shadow: 0px 4px 4px #00000040;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "BM DoHyeon-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .loading .navbar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    align-items: center;
+    background-color: #99989859;
+  }
+  
+  .loading .text-wrapper-2 {
+    left: 985px;
+    position: absolute;
+    top: 24px;
+    font-family: "BM DoHyeon-Regular", Helvetica;
+    font-weight: 400;
+    color: #404040;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .loading .text-wrapper-3 {
+    left: 1079px;
+    position: absolute;
+    top: 24px;
+    font-family: "BM DoHyeon-Regular", Helvetica;
+    font-weight: 400;
+    color: #404040;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .loading .text-wrapper-4 {
+    left: 859px;
+    position: absolute;
+    top: 24px;
+    font-family: "BM DoHyeon-Regular", Helvetica;
+    font-weight: 400;
+    color: #404040;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .loading .githubmark {
+    position: absolute;
+    width: 45px;
+    height: 43px;
+    top: 17px;
+    left: 1299px;
+    object-fit: cover;
+  }
+  
+  .loading .text-wrapper-5 {
+    left: 160px;
+    position: absolute;
+    top: 24px;
+    font-family: "BM DoHyeon-Regular", Helvetica;
+    font-weight: 400;
+    color: #404040;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .loading .home-icon {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 17px;
+    left: 110px;
+    object-fit: cover;
+  }
+
+  #progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left:2%;
+    top:32%
+  }
+
+  #progress-bar {
+    width:  60%;
+    height: 30px;
+    top: 95%;
+    left:20%;
+    background-color: #ccc;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  #progress {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50; /* 진행률 바 색상 (예: 녹색) */
+    border-radius: 5px;
+    transition: width 0.2s ease-in-out;
+  }
+
+  .progress-text {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>다!잡아파이팅!!</title>
+  <link rel="stylesheet" href="static/css/result_style.css">
+  <script>
+    var image = document.getElementById('result_image');
+    image.onload = function() {
+      var aspectRatio = image.width / image.height;
+      var screenAspectRatio = window.innerWidth / window.innerHeight;
+      if (aspectRatio > screenAspectRatio) {
+        image.style.width = '100%';
+        image.style.height = 'auto';
+      } else {
+        image.style.width = 'auto';
+        image.style.height = '100%';
+      }
+    };
+    window.onresize = function() {
+      image.onload();
+    };
+  </script>
+</head>
+<body>
+
+  <div class="result">
+    <div class="copy-right">
+      <div class="copyright">© 2023 다!잡아</div>
+    </div>
+    <div class="result-subtitle">Checkout the result</div>
+    <div class="resul-title">교통법규를 위반한 운전자가 있는지 확인해보세요</div>
+    <div class="screen">
+      <div class="image-container">
+        <img id = "result_image" src="{{ url_for('static', filename=output_path) }}" alt="Processed Image">
+      </div>
+    </div>
+    <div class="nav-bar-w-home">
+      <div class="nav-bar-bg"></div>
+      <a class="data" href="/data">Data</a>
+      <a class="simulate" href="/simulate">Simulate</a>
+      <a class="service" href="/service">Service</a>
+      <a href="https://github.com/KHP95/AIB_TP2" target="_blank" rel="noopener noreferrer"
+              ><img
+                class="githubmark"
+                src="static/images/github_mark.png"
+        /></a>
+        <a class="home" href="/">Home</a>
+        <img
+          class="home-icon"
+          src="static/images/home_icon.png"
+          onclick="location.href='/'" style="cursor: pointer;" />    
+    </div>
+  </div>
+</body>
+</html>

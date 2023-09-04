@@ -5,4 +5,4 @@ YOLOv8/
 YOLOv8m/
 RTDETR/
 *.yaml
-*.pt
+YOLOv8m_118epoch.pt

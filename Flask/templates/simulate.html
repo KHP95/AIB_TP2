@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head lang="ko">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다!잡아파이팅!!</title>
+    <link rel="stylesheet" href="static/css/globals.css" />
+    <link rel="stylesheet" href="static/css/styleguide.css" />
+    <link rel="stylesheet" href="static/css/simulate_style.css" />
+    <script>
+      function validateForm() {
+          var fileInput = document.getElementById('ex_file');
+          var alertElement = document.getElementById('alert');
+  
+          if (fileInput.files.length === 0) {
+            alertElement.textContent = "동영상(mp4) 또는 이미지(jpg,png)가 입력되지 않았습니다."; // 이미지가 선택되지 않은 경우 알림 표시
+            return false; // 폼 전송 중단
+          } else {
+              alertElement.textContent = ""; // 이미지가 선택된 경우 알림 지우기
+              return true; // 폼 전송 진행
+          }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="simulate">
+      <div class="div">
+        <!-- 이미지를 base64로 디코딩하여 표시 -->
+        {% if image_data %}
+        <img src="data:image/jpeg;base64,{{ image_data }}" alt="Processed Image">
+        {% endif %}
+      </div>
+        <div class="copy-right"><div class="text-wrapper">© 2023 다!잡아</div></div>
+        <div class="overlap">
+          <div class="input-subtitle">Simulate The Service</div>
+          <p class="input-title">동영상 또는 이미지 파일을 입력하세요</p>
+          <form method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+            <div class="filebox">
+              <label for="ex_file"><img class="insert-img" src="static/images/image.png" for="ex_file"></label>
+              <input type="file" id="ex_file" name="input_file">
+            </div>
+          <button type="submit" class="inferbutton">단속을 시작합니다</button>
+          </form>
+          <div class = 'alert', id="alert"></div>
+        </div>
+        <a
+          href="https://github.com/open-mmlab/mmyolo/tree/main/configs/yolov8"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><p class="arch-reference">출처: Official MMYolo Github, Open-mmlab<br />(accessed by 2023.08.28)</p></a
+        >
+        <div class="overlap-2">
+          <div class="neck">
+            <div class="overlap-3">
+              <img
+                class="input-img"
+                src="static/images/input_img.png"
+              />
+              <div class="input">동영상<br />or<br />이미지</div>
+            </div>
+            <div class="overlap-4">
+              <img
+                class="arrow"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/arrow-7.svg"
+              />
+              <img
+                class="img"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/arrow-8.svg"
+              />
+              <img
+                class="arrow-2"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/arrow-5.svg"
+              />
+              <img
+                class="arrow-3"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/arrow-6.svg"
+              />
+              <img
+                class="line"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line-7.svg"
+              />
+              <img
+                class="line-2"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line-8.svg"
+              />
+              <img
+                class="line-3"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line-9.svg"
+              />
+              <div class="rectangle"></div>
+              <div class="rectangle-2"></div>
+              <div class="rectangle-3"></div>
+              <img
+                class="rectangle-4"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/rectangle-81.svg"
+              />
+              <img
+                class="rectangle-5"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/rectangle-80.svg"
+              />
+              <img
+                class="rectangle-6"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/rectangle-78.svg"
+              />
+              <img
+                class="rectangle-7"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/rectangle-79.svg"
+              />
+              <div class="rectangle-8"></div>
+              <div class="rectangle-9"></div>
+              <div class="rectangle-10"></div>
+              <div class="rectangle-11"></div>
+              <div class="rectangle-12"></div>
+              <div class="u">U</div>
+              <div class="u-2">U</div>
+              <div class="t">T</div>
+              <div class="t-2">T</div>
+              <div class="d">D</div>
+              <div class="d-2">D</div>
+              <div class="c">C</div>
+              <div class="c-2">C</div>
+              <div class="c-3">C</div>
+              <div class="c-4">C</div>
+              <div class="b">B</div>
+              <div class="b-2">B</div>
+              <div class="rectangle-13"></div>
+              <div class="r">R</div>
+              <div class="rectangle-14"></div>
+              <div class="r-2">R</div>
+              <div class="rectangle-15"></div>
+              <div class="r-3">R</div>
+              <div class="rectangle-16"></div>
+              <div class="o">O</div>
+              <div class="rectangle-17"></div>
+              <div class="o-2">O</div>
+              <div class="rectangle-18"></div>
+              <div class="o-3">O</div>
+              <p class="pafpn">
+                <span class="span">Neck<br /></span> <span class="text-wrapper-2">PAFPN</span>
+              </p>
+            </div>
+          </div>
+          <div class="backbone">
+            <div class="overlap-5">
+              <img
+                class="line-4"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line-1.svg"
+              />
+              <img
+                class="arrow-4"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/arrow-1.svg"
+              />
+              <img
+                class="line-5"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line-2.svg"
+              />
+              <img
+                class="arrow-5"
+                src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/arrow-2.svg"
+              />
+              <p class="darknet">
+                <span class="span">Backbone</span>
+                <span class="text-wrapper-3"></span>
+                <span class="text-wrapper-2">Darknet</span>
+              </p>
+              <img
+                class="backbone-img"
+                src="static/images/backbone_img.png"
+              />
+            </div>
+            <img
+              class="arrow-6"
+              src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/arrow-3.svg"
+            />
+          </div>
+        </div>
+        <div class="heaad">
+          <div class="overlap-6">
+            <div class="rectangle-19"></div>
+            <img
+              class="line-6"
+              src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line-6.svg"
+            />
+            <div class="rectangle-20"></div>
+            <div class="decoupled">Decoupled Head</div>
+          </div>
+          <div class="overlap-7">
+            <div class="rectangle-21"></div>
+            <img
+              class="loss-img"
+              src="static/images/loss_img.png"
+            />
+            <img
+              class="arrow-7"
+              src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/arrow-4.svg"
+            />
+            <div class="cls">Cls.</div>
+            <div class="bbox">Bbox.</div>
+            <div class="clou-dfl">CloU<br />+ DFL</div>
+            <div class="text-wrapper-4">BCE</div>
+          </div>
+          <div class="overlap-8">
+            <img
+              class="line-7"
+              src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line-3.svg"
+            />
+            <img
+              class="line-8"
+              src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line-3.svg"
+            />
+            <img
+              class="line-9"
+              src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line-3.svg"
+            />
+            <img
+              class="head-img"
+              src="static/images/head_img.png"
+            />
+          </div>
+          <div class="text-wrapper-5">Head</div>
+          <div class="text-wrapper-6">Loss</div>
+          <div class="decoupled-wrapper"><div class="decoupled-2">Decoupled Head</div></div>
+          <div class="div-wrapper"><div class="decoupled-2">Decoupled Head</div></div>
+          <div class="overlap-9">
+            <img
+              class="vlist-icon"
+              src="static/images/vlist_icon.png"
+            />
+            <div class="ouput">교통법규<br />위반 리스트</div>
+          </div>
+        </div>
+        <div class="arch-subtitle">Model Architecture</div>
+        <div class="arch-title">Yolo v8 모델을 사용합니다</div>
+        <div class="overlap-10">
+          <a
+            href="https://paperswithcode.com/sota/real-time-object-detection-on-coco"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><p class="map-reference">
+              출처: “Real Time Object Detection on COCO”, PapersWithCode<br />(accessed by 2023.08.30)
+            </p></a
+          >
+          <div class="overlap-11">
+            <div class="overlap-group-2">
+              <div class="overlap-12">
+                <div class="overlap-13">
+                  <img
+                    class="line-10"
+                    src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line5.svg"
+                  />
+                  <img
+                    class="line-11"
+                    src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line5.svg"
+                  />
+                  <img
+                    class="line-12"
+                    src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line5.svg"
+                  />
+                  <img
+                    class="line-13"
+                    src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line5.svg"
+                  />
+                  <img
+                    class="line-14"
+                    src="https://generation-sessions.s3.amazonaws.com/5b74301b07352af8b32511fa47d12ec4/img/line1.svg"
+                  />
+                </div>
+                <div class="yolov">YOLO v6</div>
+                <div class="yolov-map">52.5</div>
+                <div class="prb-fpnmap">56.9</div>
+                <div class="yolov-2">52 .8</div>
+                <div class="pp-yolomap">54.7</div>
+                <div class="yolov-3">61.0</div>
+                <div class="prb-fpn">PRB-FPN6</div>
+                <div class="yolov-4">YOLO v7</div>
+                <div class="pp-yolo">PP-YOLOE+ X</div>
+                <div class="yolov-5">YOLO v8<br />medium</div>
+              </div>
+              <p class="mapcriteria">성능 지표 기준 : mAPval 50-95 (100점 만점)</p>
+            </div>
+            <div class="frame">
+              <div class="classbox"></div>
+              <img
+                class="classm-AP"
+                src="static/images/classmAP.png"
+              />
+            </div>
+            <p class="text">&lt; 모델별 성능 결과 비교 &gt;</p>
+            <div class="text-2">&lt; 클래스별 mAP(50-95) &gt;</div>
+          </div>
+          <div class="map-subtitle">AI Model</div>
+          <div class="map-title">모델의 신뢰도를 확인해보세요</div>
+        </div>
+        <div class="navbar">
+          <a class="text-wrapper-7" href="/data">Data</a>
+          <a class="text-wrapper-8" href="#">Simulate</a>
+          <a class="text-wrapper-9" href="/service">Service</a>
+          <a href="https://github.com/KHP95/AIB_TP2" target="_blank" rel="noopener noreferrer"
+              ><img
+                class="github-mark"
+                src="static/images/github_mark.png"
+            /></a>
+          <a class="text-wrapper-10" href="/">Home</a>
+          <img
+            class="home-icon"
+            src="static/images/home_icon.png"
+            onclick="location.href='/'" style="cursor: pointer;" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

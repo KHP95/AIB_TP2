@@ -1,0 +1,760 @@
+.index,
+.index * {
+  box-sizing: border-box;
+  text-align: center;
+}
+.index {
+  background: #ffffff;
+  width: auto;
+  height: 218.75rem;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+}
+.index .copy-right {
+  background: #d9d9d9;
+  padding: 10px 680px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 215.625rem;
+  overflow: hidden;
+}
+.index .copyright {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "BM DoHyeon-Regular", Helvetica;
+  font-weight: 400;
+  color: #3d3d3d;
+  font-size: 15px;
+  letter-spacing: 5;
+  line-height: normal;
+  white-space: nowrap;
+}
+.footer {
+  position: absolute;
+  align-items: center;
+  width: 100%;
+}
+.footer .footer-team {
+  height: 31.25rem;
+  position: static;
+}
+.footer-bg {
+  background: #f2f4f8;
+  width: 100%;
+  height: 31.25rem;
+  align-items: center;
+  position: relative;
+  left: 0rem;
+  top: 184.8125rem;
+}
+.tm-1 {
+  width: 11.05875rem;
+  height: 16.29375rem;
+  position: static;
+}
+.circle-bg-1 {
+  background: rgba(130, 130, 130, 0.3);
+  border-radius: 50%;
+  width: 11.05875rem;
+  height: 11.56rem;
+  position: absolute;
+  left: 15.5rem;
+  top: 193.879375rem;
+}
+.boy-1 {
+  width: 8.364375rem;
+  height: 8.74375rem;
+  position: absolute;
+  left: 16.826875rem;
+  top: 195.30875rem;
+}
+.gmail-com {
+  color: #000000;
+  text-align: center;
+  font: var(--basic, 400 1.25rem "BM DoHyeon", sans-serif);
+  position: absolute;
+  left: 16.783125rem;
+  top: 207.509375rem;
+  width: 7.915625rem;
+  height: 2.66375rem;
+}
+.tm-2 {
+  width: 11.05875rem;
+  height: 16.34rem;
+  position: static;
+}
+.circle-bg-2 {
+  background: rgba(130, 130, 130, 0.3);
+  border-radius: 50%;
+  width: 11.05875rem;
+  height: 11.56rem;
+  position: absolute;
+  left: 32.375rem;
+  top: 193.833125rem;
+}
+.boy-2 {
+  width: 8.364375rem;
+  height: 8.74375rem;
+  position: absolute;
+  left: 34.425625rem;
+  top: 195.261875rem;
+}
+.gmail-com2 {
+  color: #000000;
+  text-align: center;
+  font: var(--basic, 400 1.25rem "BM DoHyeon", sans-serif);
+  position: absolute;
+  left: 33.914375rem;
+  top: 207.509375rem;
+  width: 7.915625rem;
+  height: 2.66375rem;
+}
+.tm-3 {
+  width: 11.05875rem;
+  height: 16.34rem;
+  position: static;
+}
+.circle-bg-3 {
+  background: rgba(130, 130, 130, 0.3);
+  border-radius: 50%;
+  width: 11.05875rem;
+  height: 11.56rem;
+  position: absolute;
+  left: 49.25rem;
+  top: 193.8125rem;
+}
+.girl {
+  width: 6.39375rem;
+  height: 8.74375rem;
+  position: absolute;
+  left: 51.541875rem;
+  top: 195.241875rem;
+}
+.gmail-com3 {
+  color: #000000;
+  text-align: center;
+  font: var(--basic, 400 1.25rem "BM DoHyeon", sans-serif);
+  position: absolute;
+  left: 50.789375rem;
+  top: 207.48875rem;
+  width: 7.915625rem;
+  height: 2.66375rem;
+}
+.tm-4 {
+  width: 11.05875rem;
+  height: 16.360625rem;
+  position: static;
+}
+.circle-bg-4 {
+  background: rgba(130, 130, 130, 0.3);
+  border-radius: 50%;
+  width: 11.05875rem;
+  height: 11.56rem;
+  position: absolute;
+  left: 66.125rem;
+  top: 193.8125rem;
+}
+.boy-4 {
+  width: 8.364375rem;
+  height: 8.74375rem;
+  position: absolute;
+  left: 67.451875rem;
+  top: 195.241875rem;
+}
+.gmail-com4 {
+  color: #000000;
+  text-align: center;
+  font: var(--basic, 400 1.25rem "BM DoHyeon", sans-serif);
+  position: absolute;
+  left: 67.6875rem;
+  top: 207.509375rem;
+  width: 7.915625rem;
+  height: 2.66375rem;
+}
+.footer-text {
+  width: 17.4375rem;
+  height: 5.0625rem;
+  position: static;
+}
+.team {
+  color: #26a6fe;
+  text-align: left;
+  font: 400 1.5625rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 41.25rem;
+  top: 186.75rem;
+}
+.team-text {
+  color: #000000;
+  text-align: left;
+  font: 400 1.875rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 37.625rem;
+  top: 189.5rem;
+}
+.index .content {
+  position: absolute;
+  inset: 0;
+}
+.necessity {
+  width: 100%;
+  height: 27.375rem;
+  position: static;
+}
+.necessity-text {
+  width: 26.75rem;
+  height: 10.959375rem;
+  position: static;
+}
+.why-we-need-the-service {
+  color: #26a6fe;
+  text-align: left;
+  font: 400 1.5625rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 60.35rem;
+  top: 150.75rem;
+  width: 22.289375rem;
+  height: 1.771875rem;
+}
+.pm {
+  color: #000000;
+  text-align: left;
+  font: 400 1.875rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 58.753125rem;
+  top: 155.19375rem;
+  width: 26.746875rem;
+  height: 4.229375rem;
+}
+.necessity-context {
+  color: #000000;
+  text-align: left;
+  font: 400 1.0625rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 58.753125rem;
+  top: 162.10875rem;
+  width: 23.6rem;
+  height: 3.600625rem;
+}
+.neccesity-video {
+  border-radius: 0.625rem;
+  width: 48.60625rem;
+  height: 27.375rem;
+  position: absolute;
+  left: 8.0625rem;
+  top: 146.3125rem;
+}
+.pm2 {
+  width: 100%;
+  height: 41.875rem;
+  position: static;
+}
+.pm-bg {
+  opacity: 0.30000001192092896;
+  width: 100%;
+  height: 41.875rem;
+  position: absolute;
+  left: 0rem;
+  top: 91.3125rem;
+}
+._2-19-2-2-2 {
+  color: #606060;
+  text-align: center;
+  font: 400 0.9375rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 48.1875rem;
+  top: 130.625rem;
+  width: 29.5625rem;
+  height: 1.370625rem;
+}
+.index .personal-mobility {
+  color: #26a6fe;
+  text-align: left;
+  font: 400 1.5625rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 37.4375rem;
+  top: 95.42375rem;
+  width: 13.4375rem;
+  height: 2.36rem;
+}
+.index .pm-text {
+  color: #000000;
+  text-align: left;
+  font: 400 1.875rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 32.125rem;
+  top: 98.85rem;
+  width: 25.75rem;
+  height: 2.816875rem;
+}
+.pm-main {
+  width: 59.0625rem;
+  height: 16.26125rem;
+  position: static;
+}
+.motorcycle {
+  width: 15.9375rem;
+  height: 15.608125rem;
+  position: static;
+}
+.motorcycle-bg {
+  background: #fcfcfc;
+  border-radius: 0.625rem;
+  border-style: solid;
+  border-color: #3d3d3d;
+  border-width: 0.0625rem;
+  width: 16.9375rem;
+  height: 15.608125rem;
+  position: absolute;
+  left: 58.625rem;
+  top: 103.67625rem;
+}
+.motorcycle-text {
+  color: #000000;
+  text-align: center;
+  font: 400 1.5625rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 61.3125rem;
+  top: 110.3rem;
+  width: 11.5rem;
+  height: 2.36rem;
+}
+.bicycle {
+  width: 16.9375rem;
+  height: 15.608125rem;
+  position: static;
+}
+.bicycle-bg {
+  background: #fcfcfc;
+  border-radius: 0.625rem;
+  border-style: solid;
+  border-color: #3d3d3d;
+  border-width: 0.0625rem;
+  width: 15.9375rem;
+  height: 15.608125rem;
+  position: absolute;
+  left: 37rem;
+  top: 103.67625rem;
+}
+.bicycle-text {
+  color: #000000;
+  text-align: center;
+  font: 400 1.5625rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 40.5rem;
+  top: 110.3rem;
+  width: 9.0625rem;
+  height: 2.36rem;
+}
+.scooter {
+  width: 16.9375rem;
+  height: 15.608125rem;
+  position: static;
+}
+.scooter-bg {
+  background: #fcfcfc;
+  border-radius: 0.625rem;
+  border-style: solid;
+  border-color: #3d3d3d;
+  border-width: 0.0625rem;
+  width: 15.9375rem;
+  height: 15.608125rem;
+  position: absolute;
+  left: 15.5rem;
+  top: 103.67625rem;
+}
+.scooter-text {
+  color: #000000;
+  text-align: center;
+  font: 400 1.5625rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 19.1875rem;
+  top: 110.3rem;
+  width: 8.5rem;
+  height: 2.36rem;
+}
+.scooter2 {
+  width: 5.3125rem;
+  height: 5.3125rem;
+  position: absolute;
+  left: 20rem;
+  top: 114rem;
+}
+.bicycle2 {
+  width: 5rem;
+  height: 4.47375rem;
+  position: absolute;
+  left: 42.5625rem;
+  top: 114.8125rem;
+}
+.motocycle {
+  width: 5.3125rem;
+  height: 5.3125rem;
+  position: absolute;
+  left: 64.1375rem;
+  top: 114.625rem;
+}
+.flow {
+  width: 100%;
+  height: 51.3125rem;
+  position: static;
+}
+.service-flow-bg {
+  background: #fff;
+  width: 100%;
+  height: 51.3125rem;
+  position: absolute;
+  left: 0rem;
+  top: 40rem;
+}
+.index .flow-text {
+  width: 27.0625rem;
+  height: 4.875rem;
+  position: static;
+}
+.index .service-flow {
+  color: #26a6fe;
+  text-align: left;
+  font: 400 1.5625rem "BM DoHyeon-Regular", Helvetica;;
+  position: absolute;
+  left: 39.375rem;
+  top: 48.875rem;
+}
+.index .flow-context {
+  color: #000000;
+  text-align: left;
+  font: 400 1.875rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 31.1875rem;
+  top: 51.4375rem;
+}
+.index .flow-diagram {
+  width: 68.63rem;
+  height: 16.399375rem;
+  position: static;
+}
+.index .flow-circle-1 {
+  background: #26a6fe;
+  border-radius: 50%;
+  width: 16.399375rem;
+  height: 16.399375rem;
+  position: absolute;
+  left: 10.3125rem;
+  top: 61.5625rem;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.index .pm3 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 1.25rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 15.375rem;
+  top: 65.75rem;
+  width: 7.4025rem;
+  height: 7.968125rem;
+}
+.index .flow-circle-2 {
+  background: #60b7ff;
+  border-radius: 50%;
+  width: 16.399375rem;
+  height: 16.399375rem;
+  position: absolute;
+  left: 23.575625rem;
+  top: 61.5625rem;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.index ._19 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 1.25rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 28.638125rem;
+  top: 66.5725rem;
+  width: 7.4025rem;
+  height: 6.374375rem;
+}
+.index .flow-circle-3 {
+  background: #d8ecfe;
+  border-radius: 50%;
+  width: 16.399375rem;
+  height: 16.399375rem;
+  position: absolute;
+  left: 36.839375rem;
+  top: 61.5625rem;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.index ._5-pm-96 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 1.25rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 41.130625rem;
+  top: 66.5725rem;
+  width: 8.945rem;
+  height: 6.374375rem;
+}
+.index .flow-circle-4 {
+  background: #fd4755;
+  border-radius: 50%;
+  width: 16.399375rem;
+  height: 16.399375rem;
+  position: absolute;
+  left: 49.845625rem;
+  top: 61.5625rem;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.index .pm-ai {
+  color: #ffffff;
+  text-align: center;
+  font: 400 1.25rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 53.5rem;
+  top: 65.75rem;
+  width: 8.945rem;
+  height: 6.374375rem;
+}
+.index .flow-circle-5 {
+  background: #fb2b3a;
+  border-radius: 50%;
+  width: 16.399375rem;
+  height: 16.399375rem;
+  position: absolute;
+  left: 62.543125rem;
+  top: 61.5625rem;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.index .pm-last {
+  color: #ffffff;
+  text-align: center;
+  font: 400 1.25rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 67.6875rem;
+  top: 65.75rem;
+  width: 6.631875rem;
+  height: 6.374375rem;
+}
+.index .flow-title {
+  width: 35.5rem;
+  height: 1.375rem;
+  position: static;
+}
+.index .pm-2023-04 {
+  color: #606060;
+  text-align: center;
+  font: 400 0.9375rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 42.8125rem;
+  top: 83.625rem;
+  width: 35.5rem;
+  height: 1.375rem;
+}
+.index .header {
+  position: absolute;
+  inset: 0;
+}
+.index-header-bg {
+  background: #f2f4f8;
+  width: 100%;
+  height: 35.625rem;
+  position: absolute;
+  left: 0rem;
+  top: 4.375rem;
+}
+.index .police-car {
+  width: 11.75rem;
+  height: 11.75rem;
+  position: absolute;
+  left: 66.625rem;
+  top: 28.5625rem;
+}
+.index .pm4 {
+  color: #000000;
+  text-align: center;
+  font: 400 2.5rem/3.6875rem "BM DoHyeon-Regular", Helvetica;;
+  position: absolute;
+  left: 24.0625rem;
+  top: 12.3125rem;
+  width: 41.9375rem;
+  height: 7.75rem;
+}
+.index .model-simulate {
+  width: 32.75rem;
+  height: 5.446875rem;
+  position: absolute;
+  left: 28.625rem;
+  top: 21.625rem;
+}
+.index .rectangle-8 {
+  background: #fd4755;
+  border-radius: 5rem;
+  width: 32.75rem;
+  height: 5.446875rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.index .simulate-page {
+  color: #f2f4f8;
+  text-align: center;
+  font: 400 1.875rem "BM DoHyeon-Regular", Helvetica;;
+  position: absolute;
+  left: 9.6875rem;
+  top: 1.565rem;
+  width: 14.25rem;
+  height: 2.316875rem;
+}
+.index .intro-button {
+  width: 19.4375rem;
+  height: 4rem;
+  position: absolute;
+  left: 60.5625rem;
+  top: 167.9375rem;
+}
+.index .rectangle-82 {
+  background: #fd4755;
+  border-radius: 5rem;
+  width: 100%;
+  height: 4rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.index .service-page {
+  color: #f2f4f8;
+  text-align: center;
+  font: 400 1.25rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 3.2rem;
+  top: 1.256875rem;
+  width: 13.5125rem;
+  height: 1.903125rem;
+}
+.index .data-button {
+  width: 21.5625rem;
+  height: 5.329375rem;
+  position: absolute;
+  left: 33.8125rem;
+  top: 122.75rem;
+}
+.index .rectangle-83 {
+  background: #fd4755;
+  border-radius: 5rem;
+  width: 21.5625rem;
+  height: 5rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.index .data-page {
+  color: #f2f4f8;
+  text-align: center;
+  font: 400 1.25rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 3.875rem;
+  top: 1.675rem;
+  width: 13.8125rem;
+  height: 1.903125rem;
+}
+.index-nav-bar {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  background-color: rgba(153, 153, 153, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+
+
+.nav-bar-default {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  height: 4.375rem;
+  position: relative;
+}
+.nav-bar-bg {
+  background: rgba(153, 153, 153, 0.35);
+  flex-shrink: 0;
+  width: 1660px;
+  height: 4.375rem;
+  position: relative;
+}
+.content2 {
+  flex-shrink: 0;
+  width: 69.8125rem;
+  height: 2.674375rem;
+  position: static;
+}
+.simulate {
+  color: #404040;
+  text-align: left;
+  font: var(--basic, 400 1.25rem "BM DoHyeon-Regular", Helvetica);
+  position: absolute;
+  left: 72rem;
+  top: 1.375rem;
+}
+.data {
+  color: #404040;
+  text-align: left;
+  font: 400 1.25rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 66rem;
+  top: 1.375rem;
+}
+.service {
+  color: #404040;
+  text-align: center;
+  font: 400 1.25rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 58rem;
+  top: 1.375rem;
+}
+.github-mark {
+  position: absolute;
+  width: 45px;
+  height: 43px;
+  top: 17px;
+  left: 1285px;
+  object-fit: cover;
+}
+.team-name {
+  color: #404040;
+  text-align: left;
+  font: 400 1.25rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 16rem;
+  top: 1.375rem;
+}
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 13rem;
+  top: 0.9375rem;
+}
+
+@font-face {
+  font-family: "BM DoHyeon-Regular";
+  src: url("font/BMDOHYEON_ttf.ttf") format("truetype");
+}

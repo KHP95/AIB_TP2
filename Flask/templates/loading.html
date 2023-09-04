@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head lang="ko">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="7">
+    <title>다!잡아파이팅!!</title>
+    <link rel="stylesheet" href="static/css/globals.css" />
+    <link rel="stylesheet" href="static/css/styleguide.css" />
+    <link rel="stylesheet" href="static/css/loading_style.css" />
+    <script>
+      function updateProgress() {
+          fetch('/get_progress')
+              .then(response => response.json())
+              .then(data => {
+                  const progress = data.progress;
+                  document.getElementById('progress').style.width = progress + '%';
+                  document.getElementById('progress-text').textContent = progress + '%';
+  
+                  if (progress < 100) {
+                      setTimeout(updateProgress, 1000); // 1초마다 업데이트
+                  }
+              });
+      }
+      updateProgress();
+    </script>
+  </head>
+  <body>
+    <div class="loading">
+      <div class="div">
+        <div class="overlap-group">
+          <div class="result-subtitle">Wait For The Result</div>
+          <p class="resul-title">동영상의 경우 상당시간이 소요됩니다.</p>
+          <div class="screen">
+            <div id="progress-container">
+              <div class="progress-text" id="progress-text">0%</div>
+            </div>
+          </div>
+          <img
+            class="img"
+            src="https://generation-sessions.s3.amazonaws.com/eb1c371d317e72169ca609142e3123db/img/loading-12@2x.png"
+          />
+          <div class="text-wrapper">Loading...</div>
+          <div id="progress-bar">
+            <div id="progress" style="width: 0%;"></div>
+          </div>
+        </div>
+      </div>
+        <div class="copy-right"><div class="copyright">© 2023 다!잡아</div>
+        <div class="navbar">
+          <a class="text-wrapper-2" href="/data">Data</a>
+          <a class="text-wrapper-3" href="/simulate">Simulate</a>
+          <a class="text-wrapper-4" href="/service">Service</a>
+          <a href="https://github.com/KHP95/AIB_TP2" target="_blank" rel="noopener noreferrer"
+                ><img
+                  class="githubmark"
+                  src="static/images/github_mark.png"
+          /></a>
+          <a class="text-wrapper-5" href="/index">Home</a>
+          <img
+            class="home-icon"
+            src="static/images/home_icon.png"
+            onclick="location.href='/index'" style="cursor: pointer;"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
