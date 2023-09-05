@@ -47,9 +47,28 @@
 <br>
 
 ### 웹 구성
-<!-- 작성요망! -->
+* 기술스택  
+<img src="https://github.com/KHP95/AIB_TP2/assets/124794057/b4ff4283-b36e-41f9-b5ae-676410fcd84b" width="700">
 
----
+[다!잡아팀 웹페이지](https://catchall-gavintain.koyeb.app/)  
+[TO Docker hub](https://hub.docker.com/r/gavintain/catchall-app)  
+
+* 웹 서버 주요 구성
+    * WSGI: Gunicorn
+    * Web Application : Flask
+    * Database : Postgresql , Redis
+    * Web design: Figma -> HTML,CSS,JAVASCRIPT
+    * Inference model package: Opencv-python,Onnxruntime
+* 웹 페이지 주요 구성
+    * Home page , Service page, Data page , Simulate page
+    * 모델을 이용하여 추론할 경우 Loading page, Result page
+* 웹 주요 서비스 기능
+    * 이미지 추론 기능
+    * 동영상 추론 기능 (현재 결과 페이지에 나타나지 않는 문제가 있음)
+* 도커 이미지를 활용한 웹 앱 서비스 구축 방법
+    * 위에 안내된 도커 허브 레포지토리에서 이미지를 다운받아 컨테이너 또는 Koyeb 등에 배포하면 됩니다.
+<br>
+
 ## Requirements
 * python = 3.11.3
 * PyTorch = 2.0.1+cu118
