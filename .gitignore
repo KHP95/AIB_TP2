@@ -1,3 +1,8 @@
 data/
 mmdetection/
 checkpoints/
+YOLOv8/
+YOLOv8m/
+RTDETR/
+*.yaml
+YOLOv8m_118epoch.pt

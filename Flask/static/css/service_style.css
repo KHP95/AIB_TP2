@@ -1,0 +1,596 @@
+.service,
+.service * {
+  box-sizing: border-box;
+}
+.service {
+  background: #ffffff;
+  width: auto;
+  height: 3450px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.copy-right {
+  background: #d9d9d9;
+  padding: 10px 680px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.copyright {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "BM DoHyeon-Regular", Helvetica;
+  font-weight: 400;
+  color: #3d3d3d;
+  font-size: 15px;
+  letter-spacing: 5;
+  line-height: normal;
+  white-space: nowrap;
+}
+.service-expectations {
+  font: 400 1.875rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  inset: 0;
+}
+.expect-flow {
+  width: 66.9375rem;
+  height: 75.5625rem;
+  position: static;
+}
+.flow-line {
+  width: 55.0625rem;
+  height: 63.6875rem;
+  position: static;
+}
+.line-1 {
+  background: #FFFF;
+  border-radius: 1.875rem;
+  border-style: dashed;
+  border-color: #606060;
+  border-width: 0.1875rem 0.1875rem 0.1875rem 0rem;
+  width: 55.0625rem;
+  height: 21.25rem;
+  position: absolute;
+  left: 17.6875rem;
+  top: 134.625rem;
+}
+.line-2 {
+  background: #FFFF;
+  border-radius: 1.875rem;
+  border-style: dashed;
+  border-color: #606060;
+  border-width: 0rem 0rem 0.1875rem 0.1875rem;
+  width: 55.0625rem;
+  height: 21.25rem;
+  position: absolute;
+  left: 17.6875rem;
+  top: 155.8125rem;
+}
+.line-3 {
+  background: #FFFF;
+  border-radius: 1.875rem;
+  border-style: dashed;
+  border-color: #606060;
+  border-width: 0rem 0.1875rem 0.1875rem 0rem;
+  width: 27.375rem;
+  height: 21.25rem;
+  position: absolute;
+  left: 45.3125rem;
+  top: 177.0625rem;
+}
+.flow-1 {
+  width: 27.476875rem;
+  height: 6.869375rem;
+  position: static;
+}
+.flow-bg-1 {
+  background: #ffdbb2;
+  border-radius: 1.875rem;
+  width: 27.476875rem;
+  height: 6.869375rem;
+  position: absolute;
+  left: 11.75rem;
+  top: 131.5rem;
+}
+.expect1 {
+  color: #80715a;
+  text-align: center;
+  font: 400 1.5625rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 19.44375rem;
+  top: 134.17875rem;
+  width: 15.04375rem;
+  height: 1.64875rem;
+}
+.spy {
+  width: 2.404375rem;
+  height: 2.404375rem;
+  position: absolute;
+  left: calc(50% - 30rem);
+  top: calc(50% - -25.875rem);
+}
+.flow-2 {
+  width: 27.476875rem;
+  height: 6.869375rem;
+  position: static;
+}
+.flow-gb-2 {
+  background: #ffdbb2;
+  border-radius: 1.875rem;
+  width: 27.476875rem;
+  height: 6.869375rem;
+  position: absolute;
+  left: 51.1875rem;
+  top: 131.5rem;
+}
+.expect2 {
+  color: #80715a;
+  text-align: center;
+  font: 400 1.5625rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 60.255rem;
+  top: 133.904375rem;
+  width: 12.501875rem;
+  height: 2.129375rem;
+}
+.badge {
+  width: 2.404375rem;
+  height: 2.404375rem;
+  position: absolute;
+  left: 57.095rem;
+  top: 133.766875rem;
+}
+.flow-3 {
+  width: 27.476875rem;
+  height: 6.16rem;
+  position: static;
+}
+.flow-gb-3 {
+  background: #ffdbb2;
+  border-radius: 1.875rem;
+  width: 27.476875rem;
+  height: 6.16rem;
+  position: absolute;
+  left: 50.875rem;
+  top: 152.84rem;
+}
+.expect3 {
+  color: #80715a;
+  text-align: center;
+  font: 400 1.5625rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 58.774375rem;
+  top: 154.99625rem;
+  width: 14.76875rem;
+  height: 1.909375rem;
+}
+.fotbidden {
+  width: 2.404375rem;
+  height: 2.15625rem;
+  position: absolute;
+  left: 55.615rem;
+  top: 154.873125rem;
+}
+.flow-4 {
+  width: 27.476875rem;
+  height: 6.16rem;
+  position: static;
+}
+.flow-bg-4 {
+  background: #ffdbb2;
+  border-radius: 1.875rem;
+  width: 27.476875rem;
+  height: 6.16rem;
+  position: absolute;
+  left: 11.75rem;
+  top: 152.84rem;
+}
+.expect4 {
+  color: #80715a;
+  text-align: center;
+  font: 400 1.5625rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 20.53625rem;
+  top: 154.99625rem;
+  width: 13.12rem;
+  height: 1.909375rem;
+}
+.list {
+  width: 2.404375rem;
+  height: 2.15625rem;
+  position: absolute;
+  left: 17.31375rem;
+  top: 154.873125rem;
+}
+.flow-5 {
+  width: 27.476875rem;
+  height: 6.869375rem;
+  position: static;
+}
+.flow-bg-5 {
+  background: #ffdbb2;
+  border-radius: 1.875rem;
+  width: 27.476875rem;
+  height: 6.869375rem;
+  position: absolute;
+  left: 11.75rem;
+  top: 173.75rem;
+}
+.expect5 {
+  color: #80715a;
+  text-align: center;
+  font: 400 1.5625rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 19.56125rem;
+  top: 176.25rem;
+  width: 16.5625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display {
+  width: 2.404375rem;
+  height: 2.404375rem;
+  position: absolute;
+  left: 16.3125rem;
+  top: 176rem;
+}
+.flow-6 {
+  width: 18.75rem;
+  height: 18.75rem;
+  position: static;
+}
+.flow-bg-6 {
+  background: #fd7983;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #fb2b3a;
+  border-width: 0.25rem;
+  width: 18.75rem;
+  height: 18.75rem;
+  position: absolute;
+  left: 59.9375rem;
+  top: 167.6875rem;
+}
+.policeman {
+  width: 10.191875rem;
+  height: 10.221875rem;
+  position: absolute;
+  left: 64.159375rem;
+  top: 171.92125rem;
+}
+.expect6 {
+  position: absolute;
+  width: 130px;
+  top: 175rem;
+  left: 65rem;
+  font-family: "BM DoHyeon-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.flow-7 {
+  width: 18.75rem;
+  height: 18.75rem;
+  position: static;
+}
+.flow-bg-7 {
+  background: #76c1ff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #26a6fe;
+  border-width: 0.25rem;
+  width: 18.75rem;
+  height: 18.75rem;
+  position: absolute;
+  left: 35.625rem;
+  top: 188.3125rem;
+}
+.decrease {
+  width: 10.18875rem;
+  height: 10.221875rem;
+  position: absolute;
+  left: 39.905625rem;
+  top: 192.425625rem;
+}
+.expect7 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 1.875rem "BM DoHyeon-Regular", Helvetica;
+  position: relative;
+  left: 40rem;
+  top: 80rem;
+  width: 9.75rem;
+  height: 4.5rem;
+}
+.expect-text {
+  width: 23.9375rem;
+  height: 5.0625rem;
+  position: static;
+  font-family: "BM DoHyeon-Regular", Helvetica;
+}
+.group-47 {
+  width: 23.9375rem;
+  height: 5.0625rem;
+  position: static;
+}
+.service-expectations2 {
+  color: #26a6fe;
+  text-align: left;
+  font: 400 1.5625rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 36.5rem;
+  top: 119.8125rem;
+}
+.expect-context {
+  color: #000000;
+  text-align: left;
+  font: 400 1.875rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 33rem;
+  top: 122.5625rem;
+}
+.service .newspaper {
+  position: absolute;
+  inset: 0;
+}
+.newspaper .news-bg {
+  width: 75.875rem;
+  height: 45.916875rem;
+  position: absolute;
+  left: 7.0625rem;
+  top: 67.375rem;
+}
+.newspaper .art-4 {
+  width: 26.8475rem;
+  height: 5.9175rem;
+  position: static;
+}
+.newspaper .article-4 {
+  border-radius: 0.625rem;
+  width: 26.8475rem;
+  height: 5.9175rem;
+  position: absolute;
+  left: 51.020625rem;
+  top: 103.643125rem;
+}
+.newspaper .art-bg-4 {
+  background: #ffffff;
+  border-radius: 0.625rem;
+  width: 1.044375rem;
+  height: 1.696875rem;
+  position: absolute;
+  left: 76.823125rem;
+  top: 103.643125rem;
+}
+.newspaper .art-3 {
+  width: 33.203125rem;
+  height: 7.02875rem;
+  position: static;
+}
+.newspaper .article-3 {
+  border-radius: 0.625rem;
+  width: 33.203125rem;
+  height: 7.02875rem;
+  position: absolute;
+  left: 12.650625rem;
+  top: 103.0675rem;
+}
+.newspaper .art-bg-3 {
+  background: #ffffff;
+  border-radius: 0.625rem;
+  width: 1.035rem;
+  height: 1.681875rem;
+  position: absolute;
+  left: 30.545625rem;
+  top: 103.843125rem;
+}
+.newspaper .art-2 {
+  width: 46.78125rem;
+  height: 7.259375rem;
+  position: static;
+}
+.newspaper .article-2 {
+  border-radius: 0.625rem;
+  width: 46.78125rem;
+  height: 7.259375rem;
+  position: absolute;
+  left: 31.086875rem;
+  top: 94.483125rem;
+}
+.newspaper .art-bg-2 {
+  background: #ffffff;
+  border-radius: 0.625rem;
+  width: 1.3825rem;
+  height: 2.246875rem;
+  position: absolute;
+  left: 76.485rem;
+  top: 94.483125rem;
+}
+.newspaper .art-1 {
+  width: 34.641875rem;
+  height: 7.7825rem;
+  position: static;
+}
+.newspaper .article-1 {
+  border-radius: 0.625rem;
+  width: 34.641875rem;
+  height: 7.7825rem;
+  position: absolute;
+  left: 12.650625rem;
+  top: 85.380625rem;
+}
+.newspaper .art-bg-1 {
+  background: #ffffff;
+  border-radius: 0.625rem;
+  width: 1.0675rem;
+  height: 1.734375rem;
+  position: absolute;
+  left: 26.97rem;
+  top: 86.625625rem;
+}
+.newspaper .news-text {
+  width: 44.25rem;
+  height: 4.0625rem;
+  position: static;
+}
+.newspaper .news-context {
+  color: #000000;
+  text-align: center;
+  font: 400 1.875rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 22.875rem;
+  top: 78.375rem;
+  width: 45.25rem;
+  height: 2.125rem;
+}
+.pm {
+  color: #000000;
+  text-align: center;
+  font: 400 1.25rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 37.125rem;
+  top: 81rem;
+  width: 17.1875rem;
+  height: 1.4375rem;
+}
+.service .header {
+  position: absolute;
+  inset: 0;
+}
+.header-bg {
+  background: #f2f4f8;
+  width: 100%;
+  height: 54.5rem;
+  position: absolute;
+  left: 0rem;
+  top: 4.375rem;
+}
+.header .header-text {
+  width: 28.125rem;
+  height: 5rem;
+  position: static;
+}
+
+.header .the-problem {
+  color: #26a6fe;
+  text-align: left;
+  font: 400 1.5625rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 39.9375rem;
+  top: 9.75rem;
+}
+.header .problem-text {
+  color: #000000;
+  text-align: left;
+  font: 400 1.875rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 30.0625rem;
+  top: 12.4375rem;
+}
+.header .infographic {
+  width: 67.45875rem;
+  height: 37.375rem;
+  position: static;
+}
+.header .problem-ig {
+  width: 66.4375rem;
+  height: 37.375rem;
+  position: absolute;
+  left: 11.97875rem;
+  top: 15.4375rem;
+}
+.header ._2022 {
+  color: #606060;
+  text-align: center;
+  font: 400 0.9375rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 59.75rem;
+  top: 51.75rem;
+  width: 19.6875rem;
+  height: 1.0625rem;
+}
+.nav-bar-w-home {
+  width: 100%;
+  height: 4.375rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+}
+.nav-bar-bg {
+  background: rgba(153, 153, 153, 0.35);
+  width: 100%;
+  height: 4.375rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+}
+.data {
+  color: #404040;
+  text-align: left;
+  font: var(--basic, 400 1.25rem "BM DoHyeon-Regular", Helvetica);
+  position: absolute;
+  left: 61.5625rem;
+  top: 1.5625rem;
+}
+.simulate {
+  color: #404040;
+  text-align: left;
+  font: var(--basic, 400 1.25rem "BM DoHyeon-Regular", Helvetica);
+  position: absolute;
+  left: 67.4375rem;
+  top: 1.5625rem;
+}
+.service2 {
+  color: #404040;
+  text-align: left;
+  font: 400 1.25rem "BM DoHyeon-Regular", Helvetica;;
+  position: absolute;
+  left: 53.6875rem;
+  top: 1.5625rem;
+}
+.github-mark {
+  width: 2.8125rem;
+  height: 2.674375rem;
+  position: absolute;
+  left: 76.125rem;
+  top: 1.0625rem;
+}
+.home {
+  color: #404040;
+  text-align: left;
+  font: 400 1.25rem "BM DoHyeon-Regular", Helvetica;
+  position: absolute;
+  left: 12.1875rem;
+  top: 1.5625rem;
+}
+.home-text {
+  color: #404040;
+  text-align: left;
+  font: 400 1.25rem "BM DoHyeon", sans-serif;
+  position: absolute;
+  left: 16.8125rem;
+  top: 1.5625rem;
+}
+.home-icon {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  position: absolute;
+  left: 9.0625rem;
+  top: 1.0625rem;
+}

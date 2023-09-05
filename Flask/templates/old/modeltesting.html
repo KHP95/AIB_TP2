@@ -1,0 +1,16 @@
+{% extends "base2.html" %}
+{% block content%}
+<div class="container-fluid">
+    <div class="container-fluid">
+        <h1 class="mt-4">Testing model</h1>
+        <p></p>
+        <p>  CatchAll 은 자전거, 오토바이 그리고 킥보드의 교통 위반 사례를 탐지할 최적의 모델을 연구하고 있습니다. </p>
+        <form action="/modelupload" method="post" enctype="multipart/form-data">
+            <label for="model">upload your model:</label>
+            <input type="file" name="model" accept="model/*" required><br><br>
+            
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</div>
+{% endblock%}
